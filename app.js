@@ -39,7 +39,7 @@ app.post("/", function(req, res){
 
   const options = {
     method: "POST",
-    auth: "brian1:" + process.env.API_KEY;
+    auth: "brian1:" + process.env.API_KEY
   };
 
   const request = https.request(url, options, function(response){
